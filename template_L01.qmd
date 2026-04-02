@@ -168,7 +168,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A regression machine learning problem is attempting to find an outcome variable that is a continuous numerical variable. Classification machine learning problems attempt to find a category that will be the outcome variable that has set confinement. 
 
 :::
 
@@ -179,7 +179,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+It is useful to stratify by the outcome variable because it is important that the training and testing data have the same proportion of class of the outcome variable. This prevents bias and helps the model learn the classes effectively.
 
 :::
 
@@ -190,7 +190,7 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+For however many repeats of V are used to train a model, V-1 folds are used to train that model and the one fold that's left out is tested on and used to calculate the RMSE. We use v-fold validation because if we didn't, we could get lucky or unlucky splits that are not representative of the true data. 
 
 :::
 
@@ -201,7 +201,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+We use bootstrap resampling instead of v-fold when the data set is very small. 
 
 :::
 
@@ -212,7 +212,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning is taking the hyperparameters of different models and setting bounds they can be tested over and how many intervals those bounds can be tested in between those bounds. We use it in order to optimize the model as best as possible. There may be a value of one hyperparameter that is the best and we are able to idenitfy that value through tuning. 
 
 :::
 
@@ -223,7 +223,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Two common performance metrics when dealing with a regression ML problems are root mean squared error and mean absolute error. 
 
 :::
 
@@ -232,7 +232,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Two common performance metrics when dealing with a classification ML problem are accuracy and precision 
 
 :::
 
@@ -247,8 +247,8 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+This is an inferential problem because you are taking a groups data (high number of service calls) and applying it to a broader group (the rest of the company). They are not predicting who will churn but rather a general better understanding if service calls will influence them.
+ 
 :::
 
 2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
@@ -256,7 +256,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This is a prediction problem because we are trying to predict a percentage chance that a customer will leave with no relationships between two variables. 
 
 :::
 
