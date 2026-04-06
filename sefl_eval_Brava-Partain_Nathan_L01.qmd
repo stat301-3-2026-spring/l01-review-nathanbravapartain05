@@ -1,0 +1,429 @@
+---
+title: "L01 Self Evaluation"
+subtitle: "Data Science 3 with R (STAT 301-3)"
+author: "Nathan Brava-Partain"
+pagetitle: "Self Evaluation Nathan Brava-Partain"
+date: today
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    embed-resources: true
+    code-fold: false
+    link-external-newwindow: true
+
+execute:
+  warning: false
+
+from: markdown+emoji
+reference-location: margin
+citation-location: margin   
+---
+
+::: {.callout-tip icon="false"}
+## Github Repo Link
+
+[My link](https://github.com/stat301-3-2026-spring/l01-review-nathanbravapartain05)
+:::
+
+### Question 1
+
+Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+1). Collecting data and cleaning the data 
+2). Splitting data into training and testing data
+3). Data processing / featured engineering 
+4). Fitting and tuning the models parameters 
+5). evaluating the models on metrics with the training data
+6). Selecting/using models to be used on testing data
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+I had every point listed in the solution combined in some way on my bullet points. The only thing I was missing was the final step of assessing the best model on the testing data.
+
+
+:::
+
+### Question 2
+
+Explain the difference between supervised and unsupervised learning.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Supervise learning uses labeled data to predict a outcome variable whereas unsupervised learning uses unlabeled data and attempts to create and find its own patterns, trends, or structures entirely on its own. 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+I think I had an explination that was sufficently close to the sample solution to warren a 5. We may have used a little bit different of language but the large, key points of the differences were still very much present in my response. 
+
+
+:::
+
+### Question 3 
+
+In general, we can classify a model by its purpose into 1 of the 3 categories below. Provide a brief description of the goals of these model classes.
+
+#### Descriptive Models 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Models based on past historical data which help explain why past events happened. 
+
+:::
+
+#### Inferential Models
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Inferential models use sample data to attempt to make a larger generalization about a population such as using a few prices of houses that have been sold to make a inference on the average price of houses in the neighborhood. 
+
+:::
+
+#### Predictive Models
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Predictive models use prior data to attempt to make a claim about what will happen one day in the future. 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+3
+
+## Explanation
+
+I would say I lacked some detail for both descriptive and predictive models compared to the sample solution.
+
+## Updated solution
+
+Descriptive: Models that are based on past data that can help illuminate and highlight prior trends in data.
+
+Predictive: A target variable is is selected for new data to be created based on old data fed into the model. 
+
+
+:::
+
+### Question 4 
+
+We can further describe/classify predictive models by how they were derived or developed as being either mechanistic or empirically driven. 
+
+#### Part (a)
+
+What does it mean to be a mechanistic model?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+A mechanistic model is a mathematical model that has physical limitations based on natural laws that exist in the world. It simulates their inter workings and the relationship between variables. 
+
+:::
+
+#### Part (b)
+
+What does it mean to be an empirically driven model?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+An empirically driven model is a model that only maps input variables onto the output variables and attempts to make meaningful connections between those without any limitations. 
+
+:::
+
+#### Part (c)
+
+How does the mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+A parametric model is one that follows an equation or formula when attempting to create an outcome. In that sense is related to mechanistic model since it follows a set of rules. A nonparametric model doesn't follow any formulas and in that way it is related to an empirical model. 
+
+:::
+
+#### Part (d)
+
+In general, is a mechanistic or empirically driven model easier to interpret? Explain.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+It is generally easier to interpret mechanistic models as they follow a guided set of rules that we already know how it works. It may be hard to explain a empirical model as we don't exactly know the behind the scenes of what the model is doing. 
+
+:::
+
+#### Part (e)
+
+How does mechanistic and empirically driven model terminology relate to the idea of model flexibility? That is, which would be more or less flexible than the other.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Generally, an empirically driven model is more flexible than mechanistic models are. This is because empirical models are not restricted to the laws that the formula provides for it. An empirical model, if needed, can go beyond those limitations that may be present for a mechanistic model. 
+
+:::
+
+#### Part (f)
+
+Describe the bias-variance trade-off when considering the use of a mechanistic or empirically driven model. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Mechanistic model tend to under fit to the data with their ridged structure that they have whereas empirically driven models tend to over fit to the data as they can make exact links between the data and the outcome. The goal is to try and create a model in the middle between these exremes that doesn't under or overfit. 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+All my answers were correct and had the proper explanation for why I chose the answer I did. I think there were few minor details such as which types of models specifically are mechanistic and empirical that I didn't include that I could have. 
+
+:::
+
+### Question 5 
+
+Explain the difference between a regression and classification machine learning (ML) problems.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+A regression machine learning problem is attempting to find an outcome variable that is a continuous numerical variable. Classification machine learning problems attempt to find a category that will be the outcome variable that has set confinement. 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+I put pretty much exactly what the solution posted was so I feel like that is deserving of a 5. 
+
+:::
+
+### Question 6 
+
+When splitting the data, why is it useful to stratify by the outcome/target variable? 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+It is useful to stratify by the outcome variable because it is important that the training and testing data have the same proportion of class of the outcome variable. This prevents bias and helps the model learn the classes effectively.
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+My explanation to this question is almost exactly what the solution was however, I did have to refer back to my notes when answering this question which I think should deduct me a point. 
+
+:::
+
+### Question 7 
+
+Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+For however many repeats of V are used to train a model, V-1 folds are used to train that model and the one fold that's left out is tested on and used to calculate the RMSE. We use v-fold validation because if we didn't, we could get lucky or unlucky splits that are not representative of the true data. 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+I think the main points were there, I just did a poorer job at explaining it than the sample solution did.
+
+:::
+
+### Question 8
+
+When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+We use bootstrap resampling instead of v-fold when the data set is very small. 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+3
+
+## Explanation
+
+I had half the reason but not the second half provided in the solution
+
+## Updated solution
+
+We use bootstrap resampling instead of v-fold when the data set is very small. We also use it when we was the RMSE to have little variance. 
+
+:::
+
+### Question 9 
+
+Briefly describe model tuning and why we use it.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Model tuning is taking the hyperparameters of different models and setting bounds they can be tested over and how many intervals those bounds can be tested in between those bounds. We use it in order to optimize the model as best as possible. There may be a value of one hyperparameter that is the best and we are able to identify that value through tuning. 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+I had all the main points and was correct in my explanation. I just think the provided solution did a better job and effectively explaining the concepts of hyperparameters.  
+
+
+:::
+
+### Question 10 
+
+What are two common performance metrics when dealing with a regression ML problem?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Two common performance metrics when dealing with a regression ML problems are root mean squared error and mean absolute error. 
+
+:::
+
+
+What are two common performance metrics when dealing with a classification ML problem?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Two common performance metrics when dealing with a classification ML problem are accuracy and precision 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+I gave myself a 4 because I said precision which I though was a common metric but wasn't in the solution so I'm unsure but the rest I had the same.
+
+
+:::
+
+### Question 11
+
+Classify each question/problem below as either prediction or inferential. Explain your reasoning for each.
+
+A company with a subscription based service (for example Netflix, Disney+, New York Times, etc) has data concerning customer interactions with a them, including features like the number of customer service calls, quality of service calls, subscription length, engagement with the service, discounted service, etc. They are interested in two questions:
+
+1. Does a high number of service calls impact a customer's likelihood of churn in the next month (leave the company/drop the service)?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+This is an inferential problem because you are taking a groups data (high number of service calls) and applying it to a broader group (the rest of the company). They are not predicting who will churn but rather a general better understanding if service calls will influence them.
+ 
+:::
+
+2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+This is a prediction problem because we are trying to predict a percentage chance that a customer will leave with no relationships between two variables. 
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+I had almost exactly the same explanation as the solutions did so I felt like my response was deserving of a 5
+
+
+:::
+
